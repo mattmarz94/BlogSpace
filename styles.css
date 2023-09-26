@@ -21,5 +21,9 @@ nav > h2{
 }
 
 #blog-list {
-    padding: 50px 10px 10px 30px;
+    padding: 10px;
+}
+
+form {
+    padding: 80px 10px 10px 30px;
 }
