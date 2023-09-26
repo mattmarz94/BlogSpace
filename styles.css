@@ -26,4 +26,23 @@ nav > h2{
 
 form {
     padding: 80px 10px 10px 30px;
+    display: grid;
+    background: rgb(204, 230, 230);
+}
+
+input #post-title,
+ textarea #post-body {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    color: rgb(70, 253, 253);
+    font-weight: bold;
 }
