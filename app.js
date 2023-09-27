@@ -1,4 +1,6 @@
 let postsArray = []
+const form = document.getElementById("new-post")
+
 
 function renderPosts(){
     let html = ""
@@ -41,5 +43,7 @@ document.getElementById("new-post").addEventListener("submit", function(e) {
         .then(post => {
             postsArray.unshift(post)
             renderPosts()
+
+            form.reset()
         })
 })
